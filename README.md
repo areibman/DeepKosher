@@ -6,7 +6,7 @@ Anyway, as the story of the Exodus goes, the Israelites were building pyramids o
 
 Fast forward a bit; after the Geneva Convention was revised to exclude the protected status of children, the Pharoah had enough and kicked the Jews out of the King Tut exhibit. Back then, evictions didn't have as many squatter protection clauses attached, so the Jews only had enough time to stock up on saltine crackers before they began their journey.
 
-So, to commemorate the occasion, here's a Deep Learning powered Web App that automatically classifies what your knoshing on as either Kosher or not Kosher (for Passover).
+So, to commemorate the occasion, this Deep Learning powered Web App automatically classifies what your knoshing on as either Kosher or not Kosher (for Passover).
 
 ## Architecture
 
