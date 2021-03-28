@@ -12,35 +12,6 @@ const CameraFrame = styled.div`
   width: 100%;
 `;
 
-// const useUserMedia = (requestedMedia) => {
-//   const [mediaStream, setMediaStream] = useState(null);
-
-//   useEffect(() => {
-//     async function enableStream() {
-//       try {
-//         const stream = await navigator.mediaDevices.getUserMedia(
-//           requestedMedia
-//         );
-//         setMediaStream(stream);
-//       } catch (err) {
-//         // Removed for brevity
-//       }
-//     }
-
-//     if (!mediaStream) {
-//       enableStream();
-//     } else {
-//       return function cleanup() {
-//         mediaStream.getTracks().forEach((track) => {
-//           track.stop();
-//         });
-//       };
-//     }
-//   }, [mediaStream, requestedMedia]);
-
-//   return mediaStream;
-// };
-
 const CameraWindow = styled.video`
   border: 2px solid papayawhip;
   height: 15em;
