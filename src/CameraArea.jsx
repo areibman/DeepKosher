@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect, useMemo } from "react";
 
 const CameraFrame = styled.div`
   display: flex;
@@ -11,6 +11,8 @@ const CameraFrame = styled.div`
   height: auto;
   width: 100%;
 `;
+
+// const memoizedSetMediaStream = useMemo(setMediaStream(props.stream), props.stream)
 
 const CameraWindow = styled.video`
   border: 2px solid papayawhip;
@@ -28,13 +30,19 @@ const CameraArea = (props) => {
   };
 
   useEffect(() => {
-    setMediaStream(props.stream);
+    console.log("videoref render");
     videoRef.current.srcObject = mediaStream;
-  }, [props, videoRef, mediaStream]);
+  }, [videoRef, mediaStream]);
+
+  useEffect(() => {
+    console.log(props.stream);
+    setMediaStream(props.stream);
+  }, [props]);
 
   return (
     <CameraFrame>
       <CameraWindow
+        id="webcam"
         ref={videoRef}
         autoPlay
         playsInline
