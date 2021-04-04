@@ -1,12 +1,12 @@
 # DeepKosher
 
-"There are two kinds of food in this world; the Kosher for Passover section, and everything else." Well, at least, that's what we think Moses said. We don't ask to many questions after that lad booty blasted the Red Sea with his magic snake rod. Better to be on his good side.
 
-Anyway, as the story of the Exodus goes, the Israelites were building pyramids or something, when someone came alon with the brilliant suggestion of "Hey let's not be slaves anymore??". George Bush caught on fire and launched Operation Iraqi Freedom, and some real crazy shit went down. I'm talking frogs, bed bugs, genital warts, and enough hail damage to make State Farm question why it's in the insurance business.
 
-Fast forward a bit; after the Geneva Convention was revised to exclude the protected status of children, the Pharoah had enough and kicked the Jews out of the King Tut exhibit. Back then, evictions didn't have as many squatter protection clauses attached, so the Jews only had enough time to stock up on saltine crackers before they began their journey.
 
-So, to commemorate the occasion, this Deep Learning powered Web App automatically classifies what your knoshing on as either Kosher or not Kosher (for Passover).
+
+
+
+
 
 ## Architecture
 
