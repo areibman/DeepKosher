@@ -10,7 +10,7 @@
 
 ## Architecture
 
-This application uses TensorflowJS trained and fitted to classify food imagegs. To present an image, grant your browser permissions to use the Webcam and show a food item in front. The entire application is designed to operate as an offline; all of your data remains on your local device.
+This application uses TensorflowJS trained and fitted to classify food images. To classify an image, grant your browser permissions to use your device's Webcam and display a food item. The entire application is designed to operate as an offline application; all of your data remains on your local device.
 
 ## Available Scripts
 
