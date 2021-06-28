@@ -57,7 +57,7 @@ export const Predictions = (props) => {
 
   console.log(chametz);
 
-  const result = chametz.length ? "Chametz!! 👿" : "";
+  const result = chametz.length ? "Not Kosher!! 👿" : "";
 
   return <PredictionsTexts>{result}</PredictionsTexts>;
 };
